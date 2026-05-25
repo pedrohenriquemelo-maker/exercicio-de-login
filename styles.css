@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 237, 247);
+}
+
+main {
+    background: #FFFFFF;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgb(30, 255, 0);
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    margin: 50px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#email-label, #password-label {
+    margin-left: 15px;
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+    font-weight: 500;
+}
+
+#email, #password {
+    width: 90%;
+    height: 30px;
+    margin-left: 10px; ;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 8px;
+    background: rgba(128, 128, 128, 0.151);
+}
+
+#remember {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#remember-label {
+    margin-left: 2px;
+    color: rgb(10, 153, 46);
+    font-weight: 520;
+    font-size: 18px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background:rgb(59, 240, 105);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    filter: drop-shadow(4px 4px 4px rgba(37, 138, 12, 0.795));
+}
+
+#forgot-password {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    
+}
+
+a {
+    display: inline-block;
+    color: rgb(12, 206, 206);
+}
